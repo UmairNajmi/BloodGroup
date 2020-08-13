@@ -1,0 +1,49 @@
+# My all code is in comment
+# In this i will discuss about strings in python
+
+"""""
+# F strings
+import math
+
+me = "Umair"
+a1 = "Najmi"
+a = f"This is {me} {a1} {math.cos(65)}" #This is a mathed to use F strings in code
+print(a)
+"""""
+"""""
+# String indexing process
+# String indexing process
+mystr = "Umair Najmi is a good boy"
+print(len(mystr))  # 'len function' is use for counting the string
+print(mystr[0:25])  # This will print whole statement in 
+
+"""""
+"""""
+# String indexing process
+
+mystr = "Umair Najmi is a good boy"
+print(mystr[0:5:2])  # In this it skip 2  number in 'Umair'
+print(mystr[0::2])   # In this it skip 2 number in whole strings
+print(mystr[0:])  # In this it will print all
+print(mystr[:])  # In this it will again print all string
+print(mystr[::])  # In this case it will by default '1'
+print(mystr[-4:])  # In this case string count from the left side
+print(mystr[::-2])  # In this case string will rotate by skipping two number.
+
+"""""
+
+"""""
+# Know i will discuss some function that will use in string
+
+mystr = "umair Najmi is a good boy"
+
+print(mystr.isalnum())  # if i remove space in 'mystr' then it will true otherwise it will false.
+print(mystr.endswith("boy"))  # This is ture because my string is ending with 'boy'.
+print(mystr.count("a"))  # This function is use for counting a variable in a string.e.g. Their are 3 'a'.
+print(mystr.capitalize())  # This function will uppercase my first word 'umair' to 'Umair'.
+print(mystr.find("good"))  # This function is use for finding any word in string.
+print(mystr.lower())  # This is use for lowercase all string.
+print(mystr.upper())  # This is use for uppercase all string.
+print(mystr.replace("is", "are"))  # This will replace 'is' with 'are'.
+
+"""""
